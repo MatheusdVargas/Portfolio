@@ -18,6 +18,9 @@ p {
     color: white;
     font-size: 22px;
 }
+li {
+    color: #fff;
+}
 .intro {
     color: white;
     width: 60%; 

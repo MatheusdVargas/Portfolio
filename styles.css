@@ -1,18 +1,11 @@
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin: 5px;
 }
 h1 {
-    color: #563188;
+    color: #ffffff;
     text-align: center;
     font-size: 55px;
-}
-h2 {
-    color: white;
-    width: 65%; 
-    margin-left: auto;
-    margin-right: 0;
-    text-align: center; 
 }
 p {
     color: white;
@@ -20,11 +13,41 @@ p {
 }
 .intro {
     color: white;
+    width: 65%; 
+    margin-left: auto;
+    margin-right: 0;
+    text-align: center; 
+}
+.temas {
+    color: white;
+    width: 75%; 
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center; 
+}
+.introp {
+    color: white;
     width: 60%; 
     margin-left: auto;
     margin-right: 0;
     text-align: center; 
     float: right;
+}
+.temasp {
+    color: white;
+    width: 70%; 
+    margin-left: auto;
+    margin-right: 0;
+    text-align: center; 
+    float: right;
+}
+.port {
+    color: #ffffff;
+    width: 60%; 
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center; 
+    float: left;
 }
 .navbar {
     background-color: #563188;

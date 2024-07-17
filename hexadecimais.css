@@ -74,3 +74,6 @@ p {
     display: flex;
     justify-content: center;
 }
+li {
+    color: #fff;
+}
