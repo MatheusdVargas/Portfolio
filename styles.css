@@ -41,14 +41,6 @@ p {
     text-align: center; 
     float: right;
 }
-.port {
-    color: #ffffff;
-    width: 60%; 
-    margin-left: 0;
-    margin-right: auto;
-    text-align: center; 
-    float: left;
-}
 .navbar {
     background-color: #563188;
     display: flex;

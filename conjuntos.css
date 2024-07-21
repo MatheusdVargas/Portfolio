@@ -22,14 +22,7 @@ li {
     color: #fff;
     font-size: 20px;
 }
-.intro {
-    color: white;
-    width: 60%; 
-    margin-left: auto;
-    margin-right: 0;
-    text-align: center; 
-    float: right;
-}
+
 .navbar {
     background-color: #563188;
     display: flex;
@@ -70,11 +63,12 @@ li {
     color: #fff;
     text-decoration: none;
 }
-.conteudos {
-    font-size: 23px;
-    color: #563188;
+.naturais {
+    float: right;
 }
-.centralizar {
-    display: flex;
-    justify-content: center;
+.inteiros {
+    float: right;
+}
+.racionais {
+    float: right;
 }

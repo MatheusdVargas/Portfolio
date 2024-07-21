@@ -13,10 +13,15 @@ h1 {
 h2 {
     color: white;
     text-align: center; 
+    font-size: 34px;
 }
 p {
     color: white;
     font-size: 22px;
+}
+li {
+    color: #fff;
+    font-size: 20px;
 }
 .intro {
     color: white;
@@ -73,7 +78,4 @@ p {
 .centralizar {
     display: flex;
     justify-content: center;
-}
-li {
-    color: #fff;
 }
