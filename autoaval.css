@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    justify-content: center;
+    
+}
+h1 {
+    color: #563188;
+    text-align: center;
+    font-size: 55px;
+}
+h2 {
+    color: white;
+    text-align: center; 
+    font-size: 34px;
+}
+p {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+li {
+    color: #fff;
+    font-size: 20px;
+}
+h3 {
+        color: white;
+        text-align: center; 
+        font-size: 34px; 
+}
+.conteudo {
+    margin-top: 20px;    /* Margem superior */
+    margin-right: 20px;  /* Margem direita */
+    margin-bottom: 20px; /* Margem inferior */
+    margin-left: 20px;
+}
+.navbar {
+    background-color: #563188;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estilo para o ícone hamburguer */
+.hamburger-menu {
+    cursor: pointer;
+}
+
+/* Estilo para as linhas do ícone hamburguer */
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px;
+}
+
+/* Estilo para os links */
+.nav-links {
+    list-style-type: none;
+    display: none; /* Inicialmente oculto */
+    font-size: 20px;
+}
+
+.nav-links.open {
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+.reta {
+    float: right;
+}
+.conj {
+    float: right;
+}
+.int {
+    float: right;
+}
