@@ -22,7 +22,17 @@ li {
     color: #fff;
     font-size: 20px;
 }
-
+h3 {
+    color: white;
+    text-align: center; 
+    font-size: 34px; 
+}
+.conteudo {
+    margin-top: 20px;    /* Margem superior */
+    margin-right: 20px;  /* Margem direita */
+    margin-bottom: 20px; /* Margem inferior */
+    margin-left: 20px;
+}
 .navbar {
     background-color: #563188;
     display: flex;

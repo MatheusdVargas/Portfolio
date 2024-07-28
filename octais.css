@@ -23,13 +23,11 @@ li {
     color: #fff;
     font-size: 20px;
 }
-.intro {
-    color: white;
-    width: 60%; 
-    margin-left: auto;
-    margin-right: 0;
-    text-align: center; 
-    float: right;
+.conteudo {
+    margin-top: 20px;    /* Margem superior */
+    margin-right: 20px;  /* Margem direita */
+    margin-bottom: 20px; /* Margem inferior */
+    margin-left: 20px;
 }
 .navbar {
     background-color: #563188;
@@ -70,10 +68,6 @@ li {
 .nav-links li a {
     color: #fff;
     text-decoration: none;
-}
-.conteudos {
-    font-size: 23px;
-    color: #563188;
 }
 .centralizar {
     display: flex;

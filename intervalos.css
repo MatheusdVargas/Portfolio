@@ -1,27 +1,37 @@
 body {
     background-color: black;
-    margin: 5px;
+    justify-content: center;
     
 }
 h1 {
-    color: #ffffff;
+    color: #563188;
     text-align: center;
     font-size: 55px;
 }
 h2 {
     color: white;
-    width: 65%; 
-    margin-left: auto;
-    margin-right: 0;
     text-align: center; 
+    font-size: 34px;
 }
 p {
     color: white;
     font-size: 22px;
+    text-align: justify;
 }
 li {
     color: #fff;
-    line-height: 1.5em;
+    font-size: 20px;
+}
+h3 {
+        color: white;
+        text-align: center; 
+        font-size: 34px; 
+}
+.conteudo {
+    margin-top: 20px;    /* Margem superior */
+    margin-right: 20px;  /* Margem direita */
+    margin-bottom: 20px; /* Margem inferior */
+    margin-left: 20px;
 }
 .navbar {
     background-color: #563188;
@@ -63,7 +73,12 @@ li {
     color: #fff;
     text-decoration: none;
 }
-.conteudos {
-    font-size: 23px;
-    color: #563188;
+.reta {
+    float: right;
+}
+.conj {
+    float: right;
+}
+.int {
+    float: right;
 }
