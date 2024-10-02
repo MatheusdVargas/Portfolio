@@ -3,56 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="imagens/ClosedBook.png" type="image/x-icon">
-    <title>Pagina Principal</title>
+    <link rel="shortcut icon" href="imagensIndex/star.png" type="image/x-icon">
+    <!--Importar a fonte Roboto -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+    </style>
 </head>
     <body>
-        <code>
-            <!-- Linhas da barra de navegação -->
-            <div class="navbar">
-                <div class="hamburger-menu">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-                <!-- Links na barra de navegação -->
-                <ul class="nav-links">
-                    <li><a href="index.html">Página Principal</a></li>
-                    <li><a href="pritrimestre.html">1º Trimestre</a></li>
-                    <li><a href="#">2º Trimestre</a></li>
-                    <li><a href="#">3º Trimestre</a></li>
+        <div class="imagem">
+            <img src="imagensIndex/logo.png" alt="" width="1310">
+        </div>
+        <nav class="navegacao">
+            <table>
+                <ul>
+                    <li><a href="https://matheusdvargas.github.io/Portfolio/">1 Trimestre</a></li>
+                    <li><a href="conteudos.html">2 Trimestre</a></li>
+                    <li><a href="/">3 Trimestre</a></li>
+                    <li><a href="autoavaliacao.html">Autoavaliação</a></li>
                 </ul>
-            </div>
-            <script src="script.js"></script>
+            </table>
+        </nav>
+        <div class="perfil">
+            <a href="https://github.com/MatheusdVargas" target="_blank"><img src="imagensIndex/github.png" alt="github"></a>
+        </div>
+        <div class="bemvindo">
+            <h1>Bem-vindo.</h1>
+        </div>
+        </div>
+        <div class="container">
+            <p>Seja bem-vindo(a) ao meu portfólio de matemática do segundo trimestre de 2024.
+                Nesse portfólio eu apresento todos os conteúdos que foram estudados nesses 3 meses,
+                e também, minhas dificuldades quanto à eles.</p>
+        </div>
+        <div class="introducao">
+            <h2>Introdução</h2>
 
-            <h1>Portfólio de Matemática</h1>
-            <hr> <br>
-            <p align="middle">
-                Feito por Matheus de Vargas (1&ordm;Info 2024) <br>
-                Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - Campus <br> Erechim 04/2024
-            </p>
-            <h2 class="intro">Introdução</h2>
-            
-            <p class="introp">
-                Seja bem-vindo(a) ao meu portfólio de matemática do primeiro trimestre de 2024. Nesse portfólio eu apresento todos os conteúdos que foram estudados nesses 3 meses, e também, minhas dificuldades quanto à eles. Para mim, o portfólio é uma ótima forma de avaliação, ele incentiva nós alunos a irmos atrás do conteúdo fora da sala de aula além de não causar aquele nervosismo e ansiedade que uma prova causa. Construir esse portfólio foi um ótimo passatempo, tanto para me aprofundar nas aulas de matemática quanto para testar meus conhecimentos de desenvolvimento web.
-            </p>
-            <img src="imagens/imagemIndex.jpg" alt="" width="500">
-            <p>Fonte: <a href="https://www.youtube.com/watch?v=4xDzrJKXOOY" target="_blank">Synthwave Lo-Fi Radio</a></p>
-
-            <h2 class="temas">Temas abordados</h2>
-            <img align="right" src="imagens/imagemIndex2.png" alt="" width="400">
-            <p class="temasp">
-                Nesse portfólio serão abordados os conteúdos: <br>
-                &#128995; Sistemas de Numeração (Binário, Octal e Hexadecimal); <br>
-                &#128995; Conversão entre Sistemas de Numeração; <br>
-                &#128995; Conjuntos numéricos. <br> <br>
-                Todas as páginas podem ser acessadas clicando nos 3 riscos no canto supertior esquerdo da tela. A página 1&ordm; trimestre redireciona aos links de outras páginas onde os conteúdos podem ser acessados. Cada conteúdo recebe uma página exclusiva dentro de uma lista. A página "Autoavaliação" contém uma reflexão sobre os conteúdos junto com algumas referências que achei importante citar.
-            </p> 
             <p>
-                Todos os <i>Favicons</i> (ícones que aparecem ao lado do nome da guia) pertencem ao site <a href="https://openmoji.org/" target="_blank">Openmoji.org</a>
+                O que é o Portfolio? <br>
+                O portfólio é como se fosse um livro didático, só que feito por mim. Aqui,
+                eu consigo me expressar melhor mostrando o que eu aprendi e o que eu não aprendi, de uma forma um pouco mais
+                informal. Além da parte de matemática,
+                o portfólio explora tudo que eu sei de desenvolvimento web, e a cada portfólio eu aprendo cada vez mais como
+                melhorar meus sites.
             </p>
-            <p align="right">Fonte <a href="https://pixlr.com/br/image-generator/" target="_blank">Pixrl - AI Image Generator</a></p>
-        </code>
+        </div>
+        <div class="fundo">
+            <p>
+                O que o portfólio significa para mim? <br>
+                O portfólio, para mim, é uma das melhores formas de avaliação. Ele nos motiva, como alunos, a buscar o conteúdo além da sala de aula e evita o nervosismo comum das provas. Criar este portfólio foi uma experiência incrivel, o portfólio permitiu que eu aprofundasse meus estudos em matemática e testasse minhas habilidades em desenvolvimento web ao mesmo tempo. <br>
+            </p>
+            <p>Que conteudos serão abordados nesse portfólio?</p>
+            <ul>
+                <li>Função Afim</li>
+                <li>Função Quadrática</li>
+                <li>Função Exponencial</li>
+                <li>Função Logarítmica</li>
+            </ul>
+        </div>
     </body>
 </html>
